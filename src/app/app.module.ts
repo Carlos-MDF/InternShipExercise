@@ -4,14 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { UserComponent } from '../app/users/users.component'
+import { UsersComponent } from '../app/users/users.component'
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UsersComponent
   ],
   imports: [
     BrowserModule,
