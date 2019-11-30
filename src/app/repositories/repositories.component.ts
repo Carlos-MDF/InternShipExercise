@@ -3,13 +3,13 @@ import { Router } from '@angular/router';
 import UserJson from '../../assets/users.json';
 
 @Component({
-    selector: 'app-users',
-    templateUrl: './users.component.html',
-    styleUrls: ['./users.component.scss']
+    selector: 'app-repositories',
+    templateUrl: './repositories.component.html',
+    styleUrls: ['./repositories.component.scss']
   })
 
 
-export class UsersComponent implements OnInit {
+export class RepositoriesComponent implements OnInit {
 
     userListJSON: any = [];
     userList: any = [];
