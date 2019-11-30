@@ -9,7 +9,7 @@ import UserJson from '../../assets/users.json';
   })
 
 
-export class UserComponent implements OnInit {
+export class UsersComponent implements OnInit {
 
     userListJSON: any = [];
     userList: any = [];
