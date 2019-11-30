@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 
 import { RepositoriesComponent } from './repositories/repositories.component'
 
+import { IndexComponent } from './index/index.component'
+
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

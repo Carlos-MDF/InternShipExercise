@@ -8,13 +8,17 @@ import { Router } from '@angular/router';
   })
 
 
-export class RepositoriesComponent implements OnInit {
+export class IndexComponent implements OnInit {
 
-    constructor() {
-        
+    constructor(private router: Router) {
+
     }
 
     ngOnInit(){
        
+    }
+
+    viewRepositories(){
+        this.router.navigateByUrl("/repositories")
     }
 }
