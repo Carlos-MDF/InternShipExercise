@@ -3,9 +3,9 @@ import { Router } from '@angular/router';
 import UserJson from '../../assets/users.json';
 
 @Component({
-    selector: 'app-user',
-    templateUrl: './user.component.html',
-    styleUrls: ['./user.component.scss']
+    selector: 'app-users',
+    templateUrl: './users.component.html',
+    styleUrls: ['./users.component.scss']
   })
 
 
