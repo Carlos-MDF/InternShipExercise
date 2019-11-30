@@ -5,24 +5,27 @@
 </div>
 
 <div class="container">
-    <div class="row">
-        <div *ngFor="let item of userList">
-          <div class="col">       
-            <div class="card mb-3 clearfix" style="max-width: 400px;">
-                <div class="row no-gutters">
-                    <div class="text-center col-md-6">
-                        <img id="imgCard" src="{{item.avatar_url}}" onError="this.onerror=null;this.src='https://avatars0.githubusercontent.com/u/2833439?s=400&v=4';" class="rounded card-img">
-                    </div> 
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <a href="{{item.github_url}}" class="card-text">Visit User Repository</a>
-                      <p class="card-text"><small class="text-muted">User Name: {{item.name}}</small></p>
-                      <p class="card-text"><small class="text-muted">User Nickname: {{item.nickName}}</small></p>
-                    </div>
-                  </div>
-                </div>
+        <div class="card-colums">
+                <div class="row">
+                        <div *ngFor="let item of userList">
+                                <div class="col">       
+                                  <div class="card mb-3 clearfix" style="max-width: 400px;">
+                                      <div class="row no-gutters">
+                                          <div class="text-center col-md-6">
+                                              <img id="imgCard" src="{{item.avatar_url}}" onError="this.onerror=null;this.src='https://avatars0.githubusercontent.com/u/2833439?s=400&v=4';" class="rounded card-img">
+                                          </div> 
+                                        <div class="col-md-6">
+                                          <div class="card-body">
+                                            <a href="{{item.github_url}}" class="card-text">Visit User Repository</a>
+                                            <p class="card-text"><small class="text-muted">User Name: {{item.name}}</small></p>
+                                            <p class="card-text"><small class="text-muted">User Nickname: {{item.nickName}}</small></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
             </div>
-          </div>
         </div>
-    </div>
+    
 </div>
